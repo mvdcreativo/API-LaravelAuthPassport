@@ -27,7 +27,35 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'name' => ['required'],
+            'email' => ['required'] 
+        ]);
+
+        $name = $request->name;
+        $email = $request->email;
+        $validateUser = User::where('email', $email)->get();
+
+
+        if(count($validateUser)>=1){
+            return response()->json(["message" => "El Usuaio ".$name." ya existe!!!"], 400);
+        }else{
+
+            $user = new User;
+            $user->name = $name;
+            $user->email = $email;
+            $user->role = $request->role;
+            $user->address = $request->address;
+            $user->city = $request->city;
+            $user->phone = $request->phone;
+            $user->ci = $request->ci;
+            $user->rut = $request->rut;
+            $user->company = $request->company;
+            $user->discount = $request->discount;
+            $user->save();
+
+            return response()->json($user, 200);
+        }    
     }
 
     /**
@@ -38,7 +66,9 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        $user = User::find($id); 
+
+        return response()->json($user, 200);    
     }
 
     /**
@@ -48,9 +78,32 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update($id, Request $request )
     {
-        //
+        $name = $request->name;
+        $email = $request->email;
+        $validateUser = User::where('email', $email)->where('id', '!=', $id)->get();
+
+
+        if(count($validateUser)>=1){
+            return response()->json(["message" => "El Usuaio ".$name." ya existe!!!"], 400);
+        }else{
+
+            $user = User::find($id);
+            $user->name = $name;
+            // $user->email = $email;
+           
+            $user->address = $request->address;
+            $user->city = $request->city;
+            $user->phone = $request->phone;
+            $user->ci = $request->ci;
+            $user->rut = $request->rut;
+            $user->company = $request->company;
+            $user->discount = $request->discount;
+            $user->save();
+
+            return response()->json($user, 200);
+        }   
     }
 
     /**
@@ -61,6 +114,9 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $user = User::find($id);
+        $user->delete();
+
+        return response()->json($user, 200);
     }
 }

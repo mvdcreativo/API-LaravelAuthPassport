@@ -25,10 +25,21 @@ Route::group(['prefix' => 'auth'], function () {
     Route::group(['middleware' => 'auth:api'], function() {
         Route::get('logout', 'Api\Auth\AuthController@logout');
         Route::get('user', 'Api\Auth\AuthController@user');
+
+        Route::apiResource('users', 'Api\UserController');
     });
-});
 
-Route::group(['middleware' => 'auth:api'], function() {
-    Route::apiResource('user', 'Api\UserController');
+
 
 });
+
+
+Route::apiResource('brand', 'Api\BrandController');
+Route::apiResource('category', 'Api\CategoryController');
+Route::apiResource('product', 'Api\ProductController');
+
+Route::get('brand-by-slug/{slug}', 'Api\BrandController@brand_by_slug');
+Route::get('category-by-slug/{slug}', 'Api\CategoryController@bySlug');
+Route::get('product-by-slug/{slug}', 'Api\ProductController@bySlug');
+Route::get('search', 'Api\SearchController@search');
+// Route::get('import', 'Api\ImportImagesController@import');

@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "name": "Perros",
+        "category_id": null
+    },
+    {
+        "id": 7,
+        "name": "Eukanuba",
+        "category_id": 1
+    },
+    {
+        "id": 9,
+        "name": "Max",
+        "category_id": 1
+    },
+    {
+        "id": 12,
+        "name": "Pro Plan",
+        "category_id": 1
+    },
+    {
+        "id": 13,
+        "name": "Dog Chow",
+        "category_id": 1
+    },
+    {
+        "id": 15,
+        "name": "Equilibrio",
+        "category_id": 1
+    },
+    {
+        "id": 24,
+        "name": "Connie",
+        "category_id": 1
+    },
+    {
+        "id": 29,
+        "name": "Pedigree",
+        "category_id": 1
+    },
+    {
+        "id": 31,
+        "name": "Big Boos",
+        "category_id": 1
+    },
+    {
+        "id": 32,
+        "name": "Maxine",
+        "category_id": 1
+    },
+    {
+        "id": 33,
+        "name": "Lager",
+        "category_id": 1
+    },
+    {
+        "id": 34,
+        "name": "Primocao",
+        "category_id": 1
+    },
+    {
+        "id": 35,
+        "name": "Frost",
+        "category_id": 1
+    },
+    {
+        "id": 37,
+        "name": "Excellent Dog",
+        "category_id": 1
+    },
+    {
+        "id": 39,
+        "name": "Nero",
+        "category_id": 1
+    },
+    {
+        "id": 40,
+        "name": "Natural Dog",
+        "category_id": 1
+    },
+    {
+        "id": 41,
+        "name": "Astro",
+        "category_id": 1
+    },
+    {
+        "id": 42,
+        "name": "Keller",
+        "category_id": 1
+    },
+    {
+        "id": 49,
+        "name": "Snacks",
+        "category_id": 1
+    },
+    {
+        "id": 53,
+        "name": "Hills",
+        "category_id": 1
+    },
+    {
+        "id": 54,
+        "name": "Animal Planet",
+        "category_id": 1
+    },
+    {
+        "id": 56,
+        "name": "The Golden Choice",
+        "category_id": 1
+    },
+    {
+        "id": 57,
+        "name": "Nhock",
+        "category_id": 1
+    },
+    {
+        "id": 58,
+        "name": "Wenaewe",
+        "category_id": 1
+    },
+    {
+        "id": 61,
+        "name": "Tiernitos",
+        "category_id": 1
+    },
+    {
+        "id": 62,
+        "name": "Protemix",
+        "category_id": 1
+    },
+    {
+        "id": 79,
+        "name": "Naturalis",
+        "category_id": 1
+    },
+    {
+        "id": 94,
+        "name": "Anti Pulgas",
+        "category_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Gatos",
+        "category_id": null
+    },
+    {
+        "id": 10,
+        "name": "Equilibrio",
+        "category_id": 2
+    },
+    {
+        "id": 11,
+        "name": "Max",
+        "category_id": 2
+    },
+    {
+        "id": 14,
+        "name": "Cat Chow",
+        "category_id": 2
+    },
+    {
+        "id": 16,
+        "name": "Pro Plan",
+        "category_id": 2
+    },
+    {
+        "id": 23,
+        "name": "Jazz",
+        "category_id": 2
+    },
+    {
+        "id": 30,
+        "name": "Whiskas",
+        "category_id": 2
+    },
+    {
+        "id": 36,
+        "name": "Frost",
+        "category_id": 2
+    },
+    {
+        "id": 38,
+        "name": "Gati",
+        "category_id": 2
+    },
+    {
+        "id": 43,
+        "name": "Nero Cat",
+        "category_id": 2
+    },
+    {
+        "id": 44,
+        "name": "Primogato",
+        "category_id": 2
+    },
+    {
+        "id": 48,
+        "name": "Snack gato",
+        "category_id": 2
+    },
+    {
+        "id": 50,
+        "name": "Sanitarios",
+        "category_id": 2
+    },
+    {
+        "id": 51,
+        "name": "Excellent cat",
+        "category_id": 2
+    },
+    {
+        "id": 52,
+        "name": "Lager",
+        "category_id": 2
+    },
+    {
+        "id": 55,
+        "name": "Hills",
+        "category_id": 2
+    },
+    {
+        "id": 63,
+        "name": "Protemix",
+        "category_id": 2
+    },
+    {
+        "id": 80,
+        "name": "Naturalis",
+        "category_id": 2
+    },
+    {
+        "id": 93,
+        "name": "Anti Pulgas",
+        "category_id": 2
+    },
+    {
+        "id": 3,
+        "name": "Accesorios",
+        "category_id": null
+    },
+    {
+        "id": 64,
+        "name": "Casitas",
+        "category_id": 3
+    },
+    {
+        "id": 65,
+        "name": "Camas",
+        "category_id": 3
+    },
+    {
+        "id": 66,
+        "name": "Ropa y Capitas",
+        "category_id": 3
+    },
+    {
+        "id": 67,
+        "name": "Transportadoras",
+        "category_id": 3
+    },
+    {
+        "id": 68,
+        "name": "Sanitarios Para Gato",
+        "category_id": 3
+    },
+    {
+        "id": 69,
+        "name": "Bebederos",
+        "category_id": 3
+    },
+    {
+        "id": 70,
+        "name": "Platos",
+        "category_id": 3
+    },
+    {
+        "id": 78,
+        "name": "Juguetes Para Perros Y Gatos",
+        "category_id": 3
+    },
+    {
+        "id": 95,
+        "name": "Arnes y Correas",
+        "category_id": 3
+    },
+    {
+        "id": 96,
+        "name": "Collares",
+        "category_id": 3
+    },
+    {
+        "id": 6,
+        "name": "Promociones",
+        "category_id": null
+    },
+    {
+        "id": 97,
+        "name": "Promociones",
+        "category_id": 6
+    }
+]
